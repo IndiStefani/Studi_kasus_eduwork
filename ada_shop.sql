@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 24, 2023 at 08:44 AM
+-- Generation Time: May 28, 2023 at 04:35 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -38,8 +38,7 @@ CREATE TABLE `gender` (
 
 INSERT INTO `gender` (`id`, `name_gender`) VALUES
 (1, 'men'),
-(2, 'woman'),
-(3, 'other');
+(2, 'woman');
 
 -- --------------------------------------------------------
 
@@ -73,7 +72,7 @@ CREATE TABLE `product` (
   `nama_pd` varchar(255) NOT NULL,
   `image` varchar(255) DEFAULT NULL,
   `hrg` decimal(10,2) NOT NULL,
-  `stok` int(10) DEFAULT NULL,
+  `status` enum('ada','restock','kosong','') DEFAULT NULL,
   `kategori_id` int(10) DEFAULT NULL,
   `gender_id` int(10) DEFAULT NULL,
   `size_id` int(10) DEFAULT NULL
@@ -83,29 +82,10 @@ CREATE TABLE `product` (
 -- Dumping data for table `product`
 --
 
-INSERT INTO `product` (`id`, `nama_pd`, `image`, `hrg`, `stok`, `kategori_id`, `gender_id`, `size_id`) VALUES
-(1, 'kaos cowok', NULL, '100000.00', 100, 1, 1, 1),
-(2, 'celana pendek', NULL, '50000.00', 150, 2, 3, 1);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `product_size`
---
-
-CREATE TABLE `product_size` (
-  `id` int(10) NOT NULL,
-  `id_size` int(10) NOT NULL,
-  `size_id` int(10) NOT NULL,
-  `jumlah` int(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `product_size`
---
-
-INSERT INTO `product_size` (`id`, `id_size`, `size_id`, `jumlah`) VALUES
-(1, 1, 1, 100);
+INSERT INTO `product` (`id`, `nama_pd`, `image`, `hrg`, `status`, `kategori_id`, `gender_id`, `size_id`) VALUES
+(1, 'kaos cowok', 'assets/img/produk/1844.jpg', '100000.00', 'ada', 1, 1, 1),
+(2, 'celana pendek', 'p', '50000.00', 'restock', 2, 2, 2),
+(8, 'Koko', 'Screenshot_21.png', '20000.00', 'ada', 3, 2, 2);
 
 -- --------------------------------------------------------
 
@@ -149,16 +129,9 @@ ALTER TABLE `kategori`
 --
 ALTER TABLE `product`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `gender_id` (`gender_id`),
-  ADD KEY `kategori_id` (`kategori_id`),
-  ADD KEY `fk_size_pd` (`size_id`);
-
---
--- Indexes for table `product_size`
---
-ALTER TABLE `product_size`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `id_size` (`id_size`);
+  ADD UNIQUE KEY `kategori_id` (`kategori_id`,`gender_id`,`size_id`),
+  ADD KEY `gender_id` (`gender_id`),
+  ADD KEY `fk_size` (`size_id`);
 
 --
 -- Indexes for table `size`
@@ -186,13 +159,7 @@ ALTER TABLE `kategori`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `product_size`
---
-ALTER TABLE `product_size`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `size`
@@ -208,14 +175,9 @@ ALTER TABLE `size`
 -- Constraints for table `product`
 --
 ALTER TABLE `product`
-  ADD CONSTRAINT `fk_size_pd` FOREIGN KEY (`size_id`) REFERENCES `product_size` (`id`),
-  ADD CONSTRAINT `product_ibfk_1` FOREIGN KEY (`gender_id`) REFERENCES `gender` (`id`);
-
---
--- Constraints for table `product_size`
---
-ALTER TABLE `product_size`
-  ADD CONSTRAINT `fk_size` FOREIGN KEY (`id_size`) REFERENCES `size` (`id_size`);
+  ADD CONSTRAINT `fk_gender` FOREIGN KEY (`gender_id`) REFERENCES `gender` (`id`),
+  ADD CONSTRAINT `fk_kategori` FOREIGN KEY (`kategori_id`) REFERENCES `kategori` (`id`),
+  ADD CONSTRAINT `fk_size` FOREIGN KEY (`size_id`) REFERENCES `size` (`id_size`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
