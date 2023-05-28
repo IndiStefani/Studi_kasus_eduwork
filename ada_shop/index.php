@@ -25,23 +25,15 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Lumia - v4.9.1
-  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Lumia</a></h1>
+        <h1><a href="index.php">ADA Shop</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -50,11 +42,10 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang Kami</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="data.php">Tambah Produk</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -72,8 +63,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1>Selamat Datang di <span>Warung Pojok Omah</span></h1>
-      <h2>We are team of talented designers making websites with Bootstrap</h2>
+      <h1>Selamat Datang di <span>ADA Shop</span></h1>
+      <h2>Your next purchase of shoes at our store</h2>
       <a href="#about" class="btn-get-started scrollto">Memulai</a>
     </div>
   </section><!-- End Hero -->
@@ -132,7 +123,7 @@
             <p>
               Warung Pojok Omah merupakan usaha kecil milik keluarga yang berbentuk kedai kopi. Warung termasuk salah satu bagian penting dalam kehidupan keseharian masyarakat. Warung Pojok Omah memberikan desain tempat yang modern, hal ini juga memberikan sentuhan kepada para pengunjung, bukan hanya itu Warung Pojok Omah menyediakan fasilitas bagi pengunjung seperti halnya Wi-Fi dan harga yang relatif murah, membuat kepentingan dari berbagai masyarakat bisa terpenuhi.
             <p>
-              Warung Pojok Omah juga memiliki penikmat tersendiri, biasanya para  penikmat ini berusia kisaran 20 – 50 tahun,  yang biasanya memilih tempat warung kopi untuk untuk hanya sekedar berbincang-bincang ringan antara teman dan sahabat atau bahkan digunakan untuk melakukan pertemuan bagi  sekelompok orang-orang yang mendiskusikan sesuatu yang bersifat ringan, tempat ini sangat cocok untuk itu, selain tempat ini tidak terlalu formal dan mengikat, harga dari jasa warung kopi pas dikantong. Gaya hidup masyarakat yang menjadikan nongkrong sebagai salah satu lifestyle.
+              Warung Pojok Omah juga memiliki penikmat tersendiri, biasanya para penikmat ini berusia kisaran 20 – 50 tahun, yang biasanya memilih tempat warung kopi untuk untuk hanya sekedar berbincang-bincang ringan antara teman dan sahabat atau bahkan digunakan untuk melakukan pertemuan bagi sekelompok orang-orang yang mendiskusikan sesuatu yang bersifat ringan, tempat ini sangat cocok untuk itu, selain tempat ini tidak terlalu formal dan mengikat, harga dari jasa warung kopi pas dikantong. Gaya hidup masyarakat yang menjadikan nongkrong sebagai salah satu lifestyle.
             </p>
           </div>
         </div>
@@ -140,67 +131,9 @@
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box">
-              <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Dolor Sitema</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
-              <h4><a href="#">Nemo Enim</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-brightness-high"></i>
-              <h4><a href="#">Magni Dolore</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4">
-            <div class="icon-box">
-              <i class="bi bi-calendar4-week"></i>
-              <h4><a href="#">Eiusmod Tempor</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
-
         <div class="section-title">
           <h2>Portfolio</h2>
           <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit</p>
@@ -224,11 +157,10 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
-
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 1</a></h4>
+                <h4><a href="portfolio-details.php">App 1</a></h4>
                 <p>App</p>
               </div>
             </div>
@@ -239,11 +171,11 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 3</a></h4>
+                <h4><a href="portfolio-details.php">Web 3</a></h4>
                 <p>Web</p>
               </div>
             </div>
@@ -254,11 +186,11 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 2</a></h4>
+                <h4><a href="portfolio-details.php">App 2</a></h4>
                 <p>App</p>
               </div>
             </div>
@@ -269,11 +201,11 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 2</a></h4>
+                <h4><a href="portfolio-details.php">Card 2</a></h4>
                 <p>Card</p>
               </div>
             </div>
@@ -284,11 +216,11 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-5.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 2</a></h4>
+                <h4><a href="portfolio-details.php">Web 2</a></h4>
                 <p>Web</p>
               </div>
             </div>
@@ -299,11 +231,11 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-6.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 3</a></h4>
+                <h4><a href="portfolio-details.php">App 3</a></h4>
                 <p>App</p>
               </div>
             </div>
@@ -314,11 +246,11 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-7.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 1</a></h4>
+                <h4><a href="portfolio-details.php">Card 1</a></h4>
                 <p>Card</p>
               </div>
             </div>
@@ -329,11 +261,11 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-8.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 3</a></h4>
+                <h4><a href="portfolio-details.php">Card 3</a></h4>
                 <p>Card</p>
               </div>
             </div>
@@ -344,11 +276,11 @@
               <figure>
                 <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-9.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 1</a></h4>
+                <h4><a href="portfolio-details.php">Web 1</a></h4>
                 <p>Web</p>
               </div>
             </div>
