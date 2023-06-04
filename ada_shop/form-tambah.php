@@ -56,6 +56,13 @@
 			<!----------------------------------------------------- END HEADER ------------------------------------------------>
 
 			<div class="content">
+				<?php
+				include_once("koneksi.php");
+				$query = $conn->query("SELECT * FROM kategori");
+				$query2 = $conn->query("SELECT * FROM gender");
+				$query1 = $conn->query("SELECT * FROM size");
+				?>
+
 				<a href="data.php" class="btn-delete">Kembali</a>
 				<hr>
 				<br>
@@ -65,13 +72,13 @@
 						<tr>
 							<td width="29%" align="right" style="padding-right:1%;">Nama Produk</td>
 							<td width="1%">:</td>
-							<td width="70%"><input type="text" name="nama_pd" placeholder="Masukan nama produk"></td>
+							<td width="70%"><input type="text" name="nama" placeholder="Masukan nama produk"></td>
 						</tr>
 
 						<tr>
 							<td width="29%" align="right" style="padding-right:1%;">Gambar Produk</td>
 							<td width="1%">:</td>
-							<td width="70%"><input type="file" name="file" placeholder="Masukan gambar"></td>
+							<td width="70%"><input type="file" name="image" placeholder="Masukan gambar"></td>
 						</tr>
 
 						<tr>
@@ -81,28 +88,20 @@
 						</tr>
 
 						<tr>
-							<td align="right" style="padding-right:1%;">Status</td>
-							<td>:</td>
-							<td>
-								<select name="status">
-									<option value="">-Pilih-</option>
-									<option value="ada">ada</option>
-									<option value="restock">restock</option>
-									<option value="kosong">kosong</option>
-								</select>
-							</td>
-						</tr>
-
-						<tr>
 							<td align="right" style="padding-right:1%;">kategori</td>
 							<td>:</td>
 							<td>
-								<select name="kategori_id">
-									<option value="">-Pilih-</option>
-									<option value="1">kaos</option>
-									<option value="2">kemeja</option>
-									<option value="3">sepatu</option>
-									<option value="4">tas</option>
+								<select type="text" class="form-select" name="kategori" id="validationGenre" required>
+									<option disabled value="">Pilih...</option>
+									<?php
+									if (mysqli_num_rows($query) > 0) {
+										while ($data = mysqli_fetch_array($query)) {
+									?>
+											<option value="<?= $data['id_kategori'] ?>"><?php echo $data["nama_kategori"]; ?></option>
+									<?php
+										}
+									}
+									?>
 								</select>
 							</td>
 						</tr>
@@ -111,12 +110,17 @@
 							<td align="right" style="padding-right:1%;">Ukuran</td>
 							<td>:</td>
 							<td>
-								<select name="size_id">
-									<option value="">-Pilih-</option>
-									<option value="1">s</option>
-									<option value="2">m</option>
-									<option value="3">l</option>
-									<option value="4">xl</option>
+								<select type="text" class="form-select" name="size" id="validationGenre" required>
+									<option disabled value="">Pilih...</option>
+									<?php
+									if (mysqli_num_rows($query1) > 0) {
+										while ($data1 = mysqli_fetch_array($query1)) {
+									?>
+											<option value="<?= $data1['id_size'] ?>"><?php echo $data1["size"]; ?></option>
+									<?php
+										}
+									}
+									?>
 								</select>
 							</td>
 						</tr>
@@ -125,10 +129,17 @@
 							<td align="right" style="padding-right:1%;">gender</td>
 							<td>:</td>
 							<td>
-								<select name="gender_id">
-									<option value="">-Pilih-</option>
-									<option value="1">men</option>
-									<option value="2">woman</option>
+								<select type="text" class="form-select" name="gender" id="validationGenre" required>
+									<option disabled value="">Pilih...</option>
+									<?php
+									if (mysqli_num_rows($query2) > 0) {
+										while ($data2 = mysqli_fetch_array($query2)) {
+									?>
+											<option value="<?= $data2['id_gender'] ?>"><?php echo $data2["name_gender"]; ?></option>
+									<?php
+										}
+									}
+									?>
 								</select>
 							</td>
 						</tr>
@@ -137,7 +148,7 @@
 							<td></td>
 							<td></td>
 							<td>
-								<input type="submit" name="simpan" value="SIMPAN DATA">
+								<button class="btn btn-primary" type="submit" name="submit">Submit</button>
 							</td>
 						</tr>
 					</table>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Warung Pojok Omah</title>
+  <title>Ada Collection</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -33,7 +33,7 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="index.php">ADA Shop</a></h1>
+        <h1><a href="index.php">Ada Collection</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -43,7 +43,6 @@
           <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang Kami</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link scrollto" href="data.php">Tambah Produk</a></li>
         </ul>
@@ -63,8 +62,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1>Selamat Datang di <span>ADA Shop</span></h1>
-      <h2>Your next purchase of shoes at our store</h2>
+      <h1>Selamat Datang di <span>Ada Collection</span></h1>
+      <h2>Halo! Selamat datang di Ada Collection! </h2>
       <a href="#about" class="btn-get-started scrollto">Memulai</a>
     </div>
   </section><!-- End Hero -->
@@ -121,9 +120,21 @@
           <div class="col-lg-6 pt-4 pt-lg-0">
             <h3>About Us</h3>
             <p>
-              Warung Pojok Omah merupakan usaha kecil milik keluarga yang berbentuk kedai kopi. Warung termasuk salah satu bagian penting dalam kehidupan keseharian masyarakat. Warung Pojok Omah memberikan desain tempat yang modern, hal ini juga memberikan sentuhan kepada para pengunjung, bukan hanya itu Warung Pojok Omah menyediakan fasilitas bagi pengunjung seperti halnya Wi-Fi dan harga yang relatif murah, membuat kepentingan dari berbagai masyarakat bisa terpenuhi.
-            <p>
-              Warung Pojok Omah juga memiliki penikmat tersendiri, biasanya para penikmat ini berusia kisaran 20 – 50 tahun, yang biasanya memilih tempat warung kopi untuk untuk hanya sekedar berbincang-bincang ringan antara teman dan sahabat atau bahkan digunakan untuk melakukan pertemuan bagi sekelompok orang-orang yang mendiskusikan sesuatu yang bersifat ringan, tempat ini sangat cocok untuk itu, selain tempat ini tidak terlalu formal dan mengikat, harga dari jasa warung kopi pas dikantong. Gaya hidup masyarakat yang menjadikan nongkrong sebagai salah satu lifestyle.
+              Halo! Selamat datang di Toko Ada Collection!
+
+              <p>1. Kami menjual berbagai macam baju pria dan juga baju wanita.
+              <p>2. Barang berkualitas
+              <p>3. Pengiriman cepat
+              <p>4. SYARAT RETUR/KOMPLAIN WAJIB MELAMPIRKAN VIDEO UNBOXING PAKET, KAMI TIDAK TERIMA KOMPLAIN TANPA VIDEO UNBOXING
+
+              <p>Follow toko kami untuk mendapatkan pemberitahuan produk baru dan promo-promo menarik. Happy shopping!
+
+              <p>Kategori
+
+
+
+              <p>1. Pria
+              <p>2. Wanita
             </p>
           </div>
         </div>
@@ -136,244 +147,112 @@
       <div class="container">
         <div class="section-title">
           <h2>Portfolio</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit</p>
         </div>
 
         <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-pria">Pria</li>
+              <li data-filter=".filter-wanita">Wanita</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pria wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/produk/1.jpg" class="img-fluid w-100" alt="">
                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">App 1</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.php">Kaos</a></h4>
+                <p>baju kaos pria</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pria wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/produk/2.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">Web 3</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.php">koko</a></h4>
+                <p>Baju koko pria</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pria wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/produk/3.jpg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">App 2</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.php">koko</a></h4>
+                <p>Baju koko pria merah</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-pria wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                <img src="assets/img/produk/4.jpeg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">Card 2</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.php">koko</a></h4>
+                <p>baju koko pria abu-abu</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wanita wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                <img src="assets/img/produk/5.jpeg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-5.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">Web 2</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.php">gamis</a></h4>
+                <p>gamis wanita</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wanita wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                <img src="assets/img/produk/6.jpeg" class="img-fluid" alt="">
                 <a href="assets/img/portfolio/portfolio-6.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">App 3</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.php">gamis</a></h4>
+                <p>gamis wanita terbaru</p>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-7.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">Card 1</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-8.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">Card 3</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/portfolio-9.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.php" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="portfolio-details.php">Web 1</a></h4>
-                <p>Web</p>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </div>
     </section><!-- End Portfolio Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -460,7 +339,7 @@
                   <i class="bi bi-geo-alt"></i>
                   <h4>Lokasi:</h4>
                   <p>
-                    <a href="https://www.google.com/maps/place/8%C2%B012'30.7%22S+114%C2%B022'48.9%22E/@-8.2085191,114.3780589,17z/" target=”_blank”>Jl. D.I. Panjaitan RT03/RW03<br>Kampung Mandar, Banyuwangi, Jawa Timur, Indonesia
+                    <a href="https://goo.gl/maps/v2nyX6Ket9oSr5m98?coh=178571&entry=tt" target=”_blank”>Dusun Krajan, Wringin Putih, <br>Kec. Muncar, Kabupaten Banyuwangi, Jawa Timur 68472
                     </a>
                   </p>
                 </div>
@@ -469,10 +348,10 @@
                   <i class="bi bi-at"></i>
                   <h4>Media Sosial:</h4>
                   <p>WhatsApp:<br>
-                    <a href="https://wa.me/62895395132460" target=”_blank”>https://wa.me/WarungPojokOmah</a>
+                    <a href="https://wa.me/6285707274174" target=”_blank”>https://wa.me/TokoAdaCollection</a>
                   </p>
                   <p>Instagram:<br>
-                    <a href="https://instagram.com/warungpojokomah" target=”_blank”> https://instagram.com/warungpojokomah</a>
+                    <a href="https://instagram.com/TokoAdaCollection" target=”_blank”> https://instagram.com/TokoAdaCollection</a>
                   </p>
                 </div>
 
@@ -502,13 +381,13 @@
         <div class="row">
 
           <div class="col col-md-6 footer-contact">
-            <h3>Warung Pojok Omah</h3>
+            <h3>Toko Ada Collection</h3>
             <p>
               Jl. D.I. Panjaitan RT03/RW03<br>Kampung Mandar, Banyuwangi<br>Jawa Timur, Indonesia
               <br><br>
               <strong>Telepon:</strong> +62 895-395-132-460<br>
-              <strong>WhatsApp:</strong><a href="https://wa.me/62895395132460" target=”_blank”> https://wa.me/WarungPojokOmah</a><br>
-              <strong>Instagram:</strong><a href="https://instagram.com/warungpojokomah" target=”_blank”> https://instagram.com/warungpojokomah</a><br>
+              <strong>WhatsApp:</strong><a href="https://wa.me/62895395132460" target=”_blank”> https://wa.me/TokoAdaCollection</a><br>
+              <strong>Instagram:</strong><a href="https://instagram.com/TokoAdaCollection" target=”_blank”> https://instagram.com/TokoAdaCollection</a><br>
             </p>
           </div>
 

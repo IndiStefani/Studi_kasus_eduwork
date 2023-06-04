@@ -74,12 +74,13 @@
                <tbody align="center">
                   <?php
                   include "koneksi.php";
-                  $query = mysqli_query($conn, "SELECT * FROM product"); //silahkan ganti jika error (sesuaikan dengan nama table yang ada di local)
+                  $query = mysqli_query($conn, "SELECT * FROM product JOIN kategori ON product.kategori_id=kategori.id_kategori JOIN gender ON product.gender_id=gender.id_gender JOIN size on product.size_id=size.id_size; "); //silahkan ganti jika error (sesuaikan dengan nama table yang ada di local)
                   ?>
                   <?php if (mysqli_num_rows($query) > 0) {
                      $no = 1;
                      while ($data = mysqli_fetch_array($query)) {
                   ?>
+                  
                         <tr>
                            <td><?php echo $no ?></td>
                            <td><?php echo $data["nama_pd"]; ?></td>
